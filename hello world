@@ -1,0 +1,8 @@
+using System;
+public class abdul
+{
+  public static void Main()
+  {
+    Console.WriteLine("Hello dunia walo")
+  }
+}
