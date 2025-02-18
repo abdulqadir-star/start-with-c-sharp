@@ -8,3 +8,13 @@ public class Indexer
         values[i]="empty";
         
     }
+
+    public string this[int index]
+    {
+        get
+        {
+            if(index>=0 && index<values.Length)
+            return values[index];
+            else
+            throw new IndexOutOfRangeException("Invalid");
+        }
