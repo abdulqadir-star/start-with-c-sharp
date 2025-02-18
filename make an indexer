@@ -18,3 +18,27 @@ public class Indexer
             else
             throw new IndexOutOfRangeException("Invalid");
         }
+        set
+        {
+            if(index>=0 && index<values.Length)
+            values[index]=value;
+            else
+            throw new IndexOutOfRangeException("Invalid");
+        }
+    }
+    public void Display()
+    {
+        for(int i=0 ; i<values.Length;i++)
+        Console.WriteLine($"index{i}={values[i]}");
+    }
+}
+public class Program
+{
+    public static void Main()
+    {
+        Indexer obj=new Indexer();
+        obj[0]="ahmad";
+        obj[1]="ali";
+        obj.Display();
+    }
+}
