@@ -1,0 +1,14 @@
+using System;
+public class Program
+{
+  public static void Main()
+  {
+    Console.Write("Enter your no of table : ");
+    int tableno=Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter length of table whereas you want to print :");
+    int tablelen=Convert.ToInt32(Console.ReadLine());    
+    int a;
+    for (a=1;a<=tablelen;a++)
+    Console.WriteLine(tableno +" * "+a+" = " + tableno*a);
+  }
+}
