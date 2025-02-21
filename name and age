@@ -1,0 +1,9 @@
+using System;
+public class Person
+{
+  public static void Main()
+  {
+    Console.Write("Enter your name here");
+    string name=Console.ReadLine();
+  }
+}
