@@ -5,5 +5,8 @@ public class Person
   {
     Console.Write("Enter your name here");
     string name=Console.ReadLine();
+    Console.Write("Enter your age here");
+    string age=Console.ReadLine();
+    
   }
 }
