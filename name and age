@@ -3,10 +3,11 @@ public class Person
 {
   public static void Main()
   {
-    Console.Write("Enter your name here");
+    Console.Write("Enter your name here : ");
     string name=Console.ReadLine();
-    Console.Write("Enter your age here");
+    Console.Write("Enter your age here : ");
     string age=Console.ReadLine();
+    Console.WriteLine("your name is "+name+" and your age is "+age);
     
   }
 }
