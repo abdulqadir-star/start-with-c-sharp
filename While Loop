@@ -10,9 +10,10 @@ public class Program
   int a=1;
   while(a<=length)
   {
-  Console.WriteLine(name);
+  Console.WriteLine(a+" : "+name);
   a++;
   }
+  Console.WriteLine("Loop is terminated:");
   
   }
 }
