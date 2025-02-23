@@ -5,7 +5,14 @@ public class Program
   {
   Console.Write("Enter your length of printing :");
   int length=Convert.ToInt32(Console.ReadLine());
+  Console.Write("Enter your name :");
+  string name=Console.ReadLine();
   int a=1;
+  while(a<=length)
+  {
+  Console.WriteLine(name);
+  a++;
+  }
   
   }
 }
