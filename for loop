@@ -1,0 +1,13 @@
+using System;
+public class Program
+{
+  public static void Main()
+  {
+    Console.Write("Enter your name here :");
+    string name=Console.ReadLine();
+    Console.Write("Enter how many times you want to print the name :");
+    int numb=Convert.ToInt32(Console.ReadLine());
+
+    
+  }
+}
