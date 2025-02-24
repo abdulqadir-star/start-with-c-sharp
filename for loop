@@ -7,7 +7,9 @@ public class Program
     string name=Console.ReadLine();
     Console.Write("Enter how many times you want to print the name :");
     int numb=Convert.ToInt32(Console.ReadLine());
-
+    int a;
+    for(a=1;a<=numb;a++)
+    Console.WriteLine(a + name);
     
   }
 }
