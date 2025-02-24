@@ -9,7 +9,7 @@ public class Program
     int numb=Convert.ToInt32(Console.ReadLine());
     int a;
     for(a=1;a<=numb;a++)
-    Console.WriteLine(a + name);
+    Console.WriteLine(a+" : "+ name);
     
   }
 }
