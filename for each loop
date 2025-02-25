@@ -1,8 +1,12 @@
 using System;
 public class Program
 {
-  public static void Mian()
+  public static void Main()
   {
     string[] arrays={"ali","ahmad","bilal","saad"};
+    foreach (string i in arrays)
+{
+Console.WriteLine(i);
+}
   }
 }
