@@ -1,0 +1,8 @@
+using System;
+public class Program
+{
+  public static void Mian()
+  {
+    string[] arrays={"ali","ahmad","bilal","saad"};
+  }
+}
