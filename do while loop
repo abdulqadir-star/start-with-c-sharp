@@ -10,7 +10,7 @@ public class Program
     int a=1;
     do
     {
-      Console.WriteLine("Your name is"+name);
+      Console.WriteLine(a+"  Your name is  "+name);
       a++;
     }
     while(a<=length);
