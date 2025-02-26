@@ -3,6 +3,8 @@ public class Program
 {
   public static void Main()
   {
+      Console.Write("Enter your name here : ");
+      string name=Console.ReadLine();
   
     int a=1;
     do
