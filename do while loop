@@ -13,6 +13,6 @@ public class Program
       Console.WriteLine("Your name is"+name);
       a++;
     }
-    while(a<=length)
+    while(a<=length);
   }
 }
