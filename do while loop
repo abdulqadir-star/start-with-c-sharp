@@ -5,7 +5,8 @@ public class Program
   {
       Console.Write("Enter your name here : ");
       string name=Console.ReadLine();
-  
+          Console.Write("Enter the length of the loop :");
+    int length = Convert.ToInt32(Console.ReadLine());
     int a=1;
     do
     {
