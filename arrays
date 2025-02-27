@@ -5,5 +5,7 @@ public class Program
   {
   string[] names={"ali","naeem","saad","bilal","qasim"};
   Console.WriteLine(string.Join(",",names));
+  Console.WriteLine("One by one execution");
+  
   }
 }
