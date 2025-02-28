@@ -5,6 +5,6 @@ public class Program
   public static void Main()
   {
     List<string> mylist= new List<string> {"ali","ahmad","saad","naeem"};
-
+    Console.WriteLine(string.Join(",",mylist));
   }
 }
