@@ -16,6 +16,8 @@ public class Program
       names.Add(name);
       a++;
     }
+    Console.WriteLine("your class contains the students");
     Console.WriteLine(string.Join(",",names));
+    Console.WriteLine("the code is exected");
   }
 }
