@@ -4,6 +4,7 @@ public class Program
 {
   public static void Main()
   {
+  Console.WriteLine("The Program is executing");
   List<string> names=new List<string>();
   Console.Write("Enter the length of your class : ");
   int length=Convert.ToInt32(Console.ReadLine());
