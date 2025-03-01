@@ -15,5 +15,6 @@ public class Program
       names.Add(name);
       a++;
     }
+    Console.WriteLine(string.Join(",",names));
   }
 }
