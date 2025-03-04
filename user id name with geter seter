@@ -2,7 +2,7 @@ using System;
 public class Person
 {
   public int Id{get;set;}
-  public string name{get;set}
+  public string name{get;set;}
 }
 public class Program
 {
@@ -11,6 +11,6 @@ public class Program
   Person per=new Person();
   per.Id=2;
   per.name="ali";
-  Console.WriteLine();
+  Console.WriteLine("your id is "+per.Id+" and your name is "+per.name);
   } 
 }
