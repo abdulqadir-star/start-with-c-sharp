@@ -1,0 +1,10 @@
+using System;
+public class Person
+{
+  public int Id{get;set;};
+  public string name{get;set};
+}
+public class Program
+{
+  Id=2;
+}
