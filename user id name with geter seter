@@ -1,10 +1,16 @@
 using System;
 public class Person
 {
-  public int Id{get;set;};
-  public string name{get;set};
+  public int Id{get;set;}
+  public string name{get;set}
 }
 public class Program
 {
-  Id=2;
+  public static void Main()
+  {
+  Person per=new Person();
+  per.Id=2;
+  per.name="ali";
+  Console.WriteLine();
+  } 
 }
