@@ -5,8 +5,28 @@ public class DrawingObj
   {
     Console.WriteLine("main class");
   }
+}
+public class Line
+{
   public overide void Draw()
   {
     Console.WriteLine("I am a Line");
   }
+  public class
+}
+public class Line
+{
+  public overide void Draw()
+  {
+    Console.WriteLine("I am a Line");
+  }
+  public class
+}
+public class Line
+{
+  public overide void Draw()
+  {
+    Console.WriteLine("I am a Line");
+  }
+  public class
 }
