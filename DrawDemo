@@ -6,27 +6,36 @@ public class DrawingObj
     Console.WriteLine("main class");
   }
 }
-public class Line
-{
-  public overide void Draw()
+public class Line : DrawingObj
   {
+  public override void Draw()
+    {
     Console.WriteLine("I am a Line");
+    } 
   }
-  public class
+public class Square : DrawingObj
+{
+  public override void Draw()
+  {
+    Console.WriteLine("I am a sqare");
+  }
 }
-public class Line
+public class Box :DrawingObj
 {
-  public overide void Draw()
+  public override void Draw()
   {
-    Console.WriteLine("I am a Line");
+    Console.WriteLine("I am a box");
   }
-  public class
 }
-public class Line
+public class Program
 {
-  public overide void Draw()
+  public static void Main()
   {
-    Console.WriteLine("I am a Line");
+    DrawingObj[] dobj=new DrawingObj[3];
+    dobj[0]=new Line();
+    dobj[1]=new Square();
+    dobj[2]=new Box();
+      foreach(DrawingObj newobj in dobj)
+      newobj.Draw();
   }
-  public class
 }
