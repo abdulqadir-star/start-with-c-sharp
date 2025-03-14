@@ -1,0 +1,5 @@
+using System;
+Console.Write("enter your name here");
+string name=Console.ReadLine();
+Message.Show(name);
+
