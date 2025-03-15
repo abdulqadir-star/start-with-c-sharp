@@ -19,6 +19,6 @@ public static void Main()
 {
   Example exp=new Example();
   exp.Show();
-MessageBox.Show("hello");
+Console.WriteLine("program execute ecuratly");
 }
 }
