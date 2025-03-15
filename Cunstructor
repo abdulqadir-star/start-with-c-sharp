@@ -6,6 +6,9 @@ public class Example
 Console.WriteLine("This is Example class");
 }
 public void Show()
+{
+Console.WriteLine("this is printed by function");
+}
 }
 
 
@@ -14,6 +17,7 @@ public class Program
 {
 public static void Main()
 {
-  
+  Example exp=new Example();
+  exp.Show();
 }
 }
