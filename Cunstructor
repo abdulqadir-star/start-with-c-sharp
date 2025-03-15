@@ -3,7 +3,7 @@ public class Example
 {
   public Example()
 {
-Console.WriteLine("This is Example class");
+Console.WriteLine("Cunstructor called");
 }
 public void Show()
 {
@@ -19,5 +19,6 @@ public static void Main()
 {
   Example exp=new Example();
   exp.Show();
+MessageBox.Show("hello");
 }
 }
