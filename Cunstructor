@@ -1,0 +1,19 @@
+using System;
+public class Example
+{
+  public Example()
+{
+Console.WriteLine("This is Example class");
+}
+public void Show()
+}
+
+
+
+public class Program
+{
+public static void Main()
+{
+  
+}
+}
