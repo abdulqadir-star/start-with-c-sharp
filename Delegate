@@ -1,4 +1,4 @@
-using System
+using System;
 namespace MyDelegate
 {
   public delegate void Delegate(string massage);
@@ -11,7 +11,7 @@ namespace MyDelegate
     public static void Main()
     {
       Delegate del=Show;
-      del("program execute")
+      del("program execute");
     }
   }
 }
