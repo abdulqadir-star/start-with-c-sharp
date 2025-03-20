@@ -10,7 +10,8 @@ namespace MyDelegate
     }
     public static void Main()
     {
-
+      Delegate del=Show;
+      del("program execute")
     }
   }
 }
