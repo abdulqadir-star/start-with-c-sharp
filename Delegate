@@ -4,6 +4,13 @@ namespace MyDelegate
   public delegate void Delegate(string massage);
   public class Program
   {
-    public static void Show()
+    public static void Show(string msg)
+    {
+      Console.WriteLine("message " +msg);
+    }
+    public static void Main()
+    {
+
+    }
   }
 }
