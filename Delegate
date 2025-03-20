@@ -1,1 +1,9 @@
 using System
+namespace MyDelegate
+{
+  public delegate void Delegate(string massage);
+  public class Program
+  {
+    public static void Show()
+  }
+}
