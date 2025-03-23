@@ -4,4 +4,5 @@ string name=Console.ReadLine();
 Message.Show(name);
 Console.Write("enter your age");
 string age = Console.ReadLine();
+Console.WriteLine(age);
 
