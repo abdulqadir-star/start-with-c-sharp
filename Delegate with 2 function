@@ -1,0 +1,6 @@
+using System;
+namespace MyDelegate
+{
+  public delegate void MyDelegate(string message);
+  public class Program
+}
