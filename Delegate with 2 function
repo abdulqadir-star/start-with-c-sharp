@@ -8,5 +8,10 @@ namespace MyDelegate
     {
       Console.WriteLine("message : "+msg);
     }
+    public static void Print(string msg)
+    {
+      Console.WriteLine("message "+msg);
+    }
+    
   }
 }
