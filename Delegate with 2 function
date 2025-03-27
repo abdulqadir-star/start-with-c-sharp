@@ -16,6 +16,8 @@ namespace MyDelegate
     {
       MyDelegate bel =Show;
       bel("how are you");
+      MyDelegate del =Print;
+      del("i am fine");
       
     }
   }
