@@ -12,6 +12,11 @@ namespace MyDelegate
     {
       Console.WriteLine("message "+msg);
     }
-    
+    public static void Main(string[] args)
+    {
+      MyDelegate bel =Show;
+      bel("how are you");
+      
+    }
   }
 }
